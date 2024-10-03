@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Main Container to center the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Top Navigation Tabs */
+.tab-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #0056b3;
+}
+
+.tab:hover {
+  background-color: #0056b3;
+}
+
+.tab.booking-link a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Calendar Section */
+.content-container {
+  display: none;
+  padding: 20px;
+}
+
+.content-container.active {
+  display: block;
+}
+
+#calendar {
+  max-width: 95%;
+  margin: 20px auto;
+}
+
+/* Free Slots Table */
+#free-slots-table {
+  max-width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#free-slots-table th, #free-slots-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#free-slots-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
