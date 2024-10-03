@@ -16,46 +16,48 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    John's Pharmacy Locums Availability
-  </header>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      John's Pharmacy Locums Availability
+    </header>
 
-  <!-- Tabs for switching between Calendar and Free Slots Table + Booking Button -->
-  <div class="tab-container">
-    <div class="tab active" data-target="calendar-container">Calendar</div>
-    <div class="tab" data-target="free-slots-container">Free Slots</div>
-    <div class="tab booking-link">
-      <a href="https://johnagiuslocums.setmore.com/" target="_blank" style="color: white;">Book Now</a>
+    <!-- Tabs for switching between Calendar and Free Slots Table + Booking Button -->
+    <div class="tab-container">
+      <div class="tab active" data-target="calendar-container">Calendar</div>
+      <div class="tab" data-target="free-slots-container">Free Slots</div>
+      <div class="tab booking-link">
+        <a href="https://johnagiuslocums.setmore.com/" target="_blank" style="color: white;">Book Now</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Calendar Container -->
-  <div id="calendar-container" class="content-container active">
-    <div id="calendar"></div>
-  </div>
+    <!-- Calendar Container -->
+    <div id="calendar-container" class="content-container active">
+      <div id="calendar"></div>
+    </div>
 
-  <!-- Free Slots Table Container -->
-  <div id="free-slots-container" class="content-container">
-    <h2 style="text-align: center;">Available Free Slots</h2>
-    <table id="free-slots-table">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Start Time</th>
-          <th>End Time</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Free slots will be populated here dynamically -->
-      </tbody>
-    </table>
-  </div>
+    <!-- Free Slots Table Container -->
+    <div id="free-slots-container" class="content-container">
+      <h2 style="text-align: center;">Available Free Slots</h2>
+      <table id="free-slots-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Free slots will be populated here dynamically -->
+        </tbody>
+      </table>
+    </div>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2024 John Agius | Locum Pharmacist Services
-  </footer>
+    <!-- Footer -->
+    <footer>
+      &copy; 2024 John Agius | Locum Pharmacist Services
+    </footer>
+  </div>
 
   <!-- External JavaScript -->
   <script src="script.js"></script>
