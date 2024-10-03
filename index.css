@@ -5,6 +5,12 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Main Container to center the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Header */
 header {
   text-align: center;
@@ -39,6 +45,11 @@ header {
 
 .tab:hover {
   background-color: #0056b3;
+}
+
+.tab.booking-link a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Calendar Section */
@@ -77,11 +88,14 @@ header {
   color: white;
 }
 
+/* Footer */
 footer {
   background-color: #343a40;
   color: white;
   padding: 10px;
   text-align: center;
   font-size: 0.9em;
-  flex-shrink: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
